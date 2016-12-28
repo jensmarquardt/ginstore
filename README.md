@@ -1,6 +1,6 @@
 # Ginstore
 
-> Simple Vue.js application to manage deliciously gins 🍸
+> Simple Vue.js application to manage delicious gins 🍸
 
 ## Installation
 
