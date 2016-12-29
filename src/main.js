@@ -22,8 +22,29 @@ new Vue({
 	router,
 	template: `
 		<div id="app">
-			<router-link class="mdl-navigation__link" to="/">Home</router-link>
-			<router-link class="mdl-navigation__link" to="/about">About</router-link>
+			<nav class="navbar navbar-inverse navbar-static-top">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<router-link class="navbar-brand" to="/">Ginstore</router-link>
+					</div>
+					<div id="navbar" class="collapse navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li>
+								<router-link to="/">Home</router-link>
+							</li>
+							<li>
+								<router-link to="/about">About</router-link>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
 			<router-view></router-view>
 		</div>
 	`

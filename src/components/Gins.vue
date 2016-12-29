@@ -1,6 +1,6 @@
 <template>
-    <div class="gins">
-        Gins
+    <div class="gins container">
+        <h1 class="page-header">Gins</h1>
     </div>
 </template>
 
