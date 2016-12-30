@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Beefeater London Dry Gin",
+        "country": "England",
+        "alcohol": 47
+    },
+    {
+        "title": "Hendrick's Gin",
+        "country": "Scotland",
+        "alcohol": 44
+    },
+    {
+        "title": "Monkey 47 Schwarzwald Dry Gin",
+        "country": "Germany",
+        "alcohol": 47
+    }
+]
