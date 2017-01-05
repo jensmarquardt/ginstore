@@ -15,7 +15,7 @@
                     <td>{{gin.title}}</td>
                     <td>{{gin.country}}</td>
                     <td>{{gin.alcohol}} % Vol</td>
-                    <td><router-link class="btn btn-default" v-bind:to="'/'">View</router-link></td>
+                    <td><router-link class="btn btn-default" v-bind:to="'/gin/'+gin.id">View</router-link></td>
                 </tr>
             </tbody>
         </table>

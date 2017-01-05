@@ -6,6 +6,7 @@ import Router from 'vue-router'
 import Resource from 'vue-resource'
 import Gins from './components/Gins'
 import About from './components/About'
+import Details from './components/Details'
 
 Vue.use(Router)
 Vue.use(Resource)
@@ -15,7 +16,8 @@ const router = new Router({
 	base: __dirname,
 	routes: [
 		{ path: '/', component: Gins },
-		{ path: '/about', component: About }
+		{ path: '/about', component: About },
+		{ path: '/gin/:id', component: Details }
 	]
 });
 
