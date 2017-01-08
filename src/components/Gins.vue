@@ -1,24 +1,26 @@
 <template>
     <div class="gins container">
         <h1 class="page-header">Manage Gins</h1>
-        <table class="table table-striped" valign="center">
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Country</th>
-                    <th>Alcohol</th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr v-for="gin in gins">
-                    <td>{{gin.title}}</td>
-                    <td>{{gin.country}}</td>
-                    <td>{{gin.alcohol}} % Vol</td>
-                    <td><router-link class="btn btn-default" v-bind:to="'/gin/'+gin.id">View</router-link></td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="table-responsive">
+            <table class="table table-striped" valign="center">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Country</th>
+                        <th>Alcohol</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for="gin in gins">
+                        <td>{{gin.title}}</td>
+                        <td>{{gin.country}}</td>
+                        <td>{{gin.alcohol}} % Vol</td>
+                        <td><router-link v-bind:to="'/gin/'+gin.id">More</router-link></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
 </template>
 
