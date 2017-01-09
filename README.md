@@ -1,8 +1,8 @@
 # Ginstore
 
-> Simple Vue.js application to manage delicious gins 🍸
+> Simple application to manage delicious gins using Vue.js and Firebase Realtime Database
 
-## Installation
+## Build setup
 
 ``` bash
 # install dependencies
