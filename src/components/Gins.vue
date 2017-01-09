@@ -25,23 +25,21 @@
 </template>
 
 <script>
+    import Firebase from 'firebase'
+
+    const firebaseApp = Firebase.initializeApp({
+        databaseURL: "https://ginstore-2e92e.firebaseio.com",
+    })
+    const db = firebaseApp.database()
+
     export default {
         name: 'gins',
         data() {
             return {
-                gins: []
             }
         },
-        methods: {
-            fetchGins() {
-                this.$http.get('/static/gins.json')
-                    .then(function(response) {
-                       this.gins = response.body;
-                    });
-            }
-        },
-        created: function() {
-            this.fetchGins();
+        firebase: {
+            gins: db.ref('gins')
         }
     }
 </script>

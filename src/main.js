@@ -4,12 +4,14 @@ import Vue from 'vue'
 import App from './App'
 import Router from 'vue-router'
 import Resource from 'vue-resource'
+import VueFire from 'vuefire'
 import Gins from './components/Gins'
 import About from './components/About'
 import Details from './components/Details'
 
 Vue.use(Router)
 Vue.use(Resource)
+Vue.use(VueFire)
 
 const router = new Router({
 	mode: 'history',
