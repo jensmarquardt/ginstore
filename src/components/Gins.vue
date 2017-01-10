@@ -2,7 +2,7 @@
     <div class="gins container">
         <h1 class="page-header">Our Gins</h1>
         <div class="table-responsive">
-            <table class="table table-striped" valign="center">
+            <table class="table table-hover">
                 <thead>
                     <tr>
                         <th>Name</th>
@@ -40,7 +40,8 @@
         },
         firebase: {
             gins: db.ref('gins')
-        }
+        },
+        created: function() {}
     }
 </script>
 
