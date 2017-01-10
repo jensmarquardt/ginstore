@@ -1,6 +1,6 @@
 <template>
     <div class="gins container">
-        <h1 class="page-header">Manage Gins</h1>
+        <h1 class="page-header">Our Gins</h1>
         <div class="table-responsive">
             <table class="table table-striped" valign="center">
                 <thead>

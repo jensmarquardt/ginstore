@@ -40,7 +40,7 @@ new Vue({
 						<router-link class="navbar-brand" to="/">Ginstore</router-link>
 					</div>
 					<div id="navbar" class="collapse navbar-collapse">
-						<ul class="nav navbar-nav">
+						<ul class="nav navbar-nav navbar-right">
 							<li>
 								<router-link to="/">Home</router-link>
 							</li>
