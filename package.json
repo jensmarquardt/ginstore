@@ -1,7 +1,7 @@
 {
   "name": "ginstore",
   "version": "1.0.0",
-  "description": "Simple gin store",
+  "description": "Simple gin store using Vue.js and Firebase",
   "author": "Jens Marquardt <dev@jensmarquardt.com>",
   "private": true,
   "scripts": {
